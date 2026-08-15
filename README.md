@@ -1,10 +1,10 @@
-# whistly-site
+# whistling-coach
 
-The public site for **Whistly**, an iPhone and iPad app that teaches you to whistle in
+The public site for **Whistling Coach**, an iPhone and iPad app that teaches you to whistle in
 tune. Two pages: a landing/support page, and the privacy policy that App Store Connect
 requires a public URL for.
 
-Live at <https://goesele.github.io/whistly-site/>.
+Live at <https://goesele.github.io/whistling-coach/>.
 
 Deliberately plain: static HTML and one stylesheet, no build step, no JavaScript, no
 trackers. The privacy policy says the app collects nothing, and a site that quietly

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Whistly — learn to whistle in tune</title>
-<meta name="description" content="Whistly teaches you to whistle in tune. It shows your pitch live against the note you are aiming at, and never records anything.">
+<meta name="description" content="Whistly teaches you to whistle in tune. It shows your pitch live against the note you are aiming at, waits until you have actually held it, and never records anything.">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,44 +12,119 @@
 
 <header>
   <h1>Whistly</h1>
-  <p class="tag">Learn to whistle in tune.</p>
+  <p class="tag">Learn to whistle in tune — for iPhone and iPad.</p>
 </header>
 
-<p class="lede">Whistly plays a note. You whistle it. Nothing moves on until you have
-actually held it — not brushed past it on the way somewhere else, held it.</p>
+<p class="lede">Whistly exists for one particular person: someone who wants to whistle a
+tune and is a long way off the notes. Not slightly flat. <em>Off.</em></p>
 
-<p>The pitch you are making is drawn live against the note you are aiming at, so you
-can see the gap closing instead of guessing.</p>
+<h2>The problem it solves</h2>
+
+<p>If you are badly off pitch, the hard part is not effort. It is that <strong>you cannot
+hear your own error</strong>. That is not a failure of attention — matching a pitch
+requires a comparison your ear is not yet making, and no amount of trying harder supplies
+it.</p>
+
+<p>Which is why being told "wrong, try again" teaches almost nothing. It arrives after
+the attempt is over, and it says nothing about which way to move or how far. What is
+missing is a way to <em>see</em> what your ear cannot yet tell you — continuously, while
+the note is still sounding, so that correcting it becomes something you can steer rather
+than guess at.</p>
+
+<p>That is the whole app. Whistly draws the pitch you are making, live, against the note
+you are aiming at. You watch the gap and close it.</p>
+
+<h2>How a practice session goes</h2>
+
+<p>Whistly plays a note. You whistle it. Nothing moves on until you have actually
+<strong>held</strong> it — not brushed past it on the way somewhere else, held it, for
+long enough that it counts as deliberate. Sliding across the right pitch and landing on
+it are different skills, and only one of them is worth rewarding.</p>
+
+<p>Then it waits for you to stop before it plays anything else, so the app is never
+talking over you.</p>
+
+<p>A brief break — a breath, a wobble — pauses the timer rather than resetting it.
+Nothing kills the will to continue faster than a progress bar dropping to zero at 95%.</p>
 
 <h2>Built for people who are a long way off</h2>
 
 <p>Most tuners assume you are nearly right and show you the last few cents. Whistly
-assumes nothing. The target is a band whose thickness <em>is</em> the tolerance, so an
-easier setting is visibly a wider target. A two-second trail follows your pitch, which
-shows the habits a single number cannot: that you start sharp and sag, or approach from
-below every time.</p>
+assumes nothing.</p>
 
-<h2>It knows what a whistle is</h2>
+<p>The target is a band, and <strong>its thickness is the tolerance</strong> — so an
+easier setting is visibly a wider target rather than a smaller number you have to take on
+trust. Behind your pitch runs a two-second trail, which is where the useful information
+actually lives: it shows the habits a single reading cannot, like starting sharp and
+sagging, or creeping up from underneath every single time.</p>
 
-<p>A whistle is almost a single pure tone. A voice is a stack of tones. Whistly measures
-that difference directly, so it tracks whistling instantly and precisely — and quietly
-refuses to track humming, singing, or a radio in the next room, rather than showing you a
-confident number that happens to be wrong.</p>
+<p>And when a note is genuinely beyond you, the app widens the band rather than letting
+you fail at it indefinitely. Progress beats purity.</p>
 
-<h2>Fitted to your range</h2>
+<h2>Why whistling, specifically</h2>
 
-<p>Every song is placed where people can actually whistle it, and if that is still wrong
-for you, one tap moves the whole tune a semitone at a time. The app remembers. There is
-no setup and no calibration ritual to fail before you start.</p>
+<p>A whistle is almost a single pure tone. A voice is a stack of tones — the note, plus
+energy at two, three, four times its frequency, which is what gives a voice its
+character.</p>
+
+<p>That difference is what makes this app possible. With one clean tone, pitch can be
+measured to within a few hundredths of a semitone, instantly, in a room that is not
+quiet. With a voice, the app would first have to work out which rung of the ladder is the
+real note — the classic way pitch trackers end up an octave out.</p>
+
+<p>So Whistly measures the ladder directly. One rung: a whistle, and it follows you.
+Several rungs: a voice, a hum, or a radio in the next room, and it deliberately stays put
+rather than showing you a confident number that happens to be wrong.</p>
+
+<h2>Fitted to your range, not someone else's</h2>
+
+<p>Whistling ranges are small and they differ. A song written for a piano is not
+automatically a song you can whistle.</p>
+
+<p>Whistly places every song where people can actually whistle it, and if that is still
+wrong for you, one tap moves the whole tune a semitone at a time. The app remembers, so
+you do it once. It also learns which octave you tend to land in and stops arguing with
+you about it.</p>
+
+<p>There is no calibration ritual, no range test to get wrong before you are allowed to
+begin. An earlier version had one, and it was worse: it asked the person who cannot yet
+control their pitch to demonstrate the two notes everything would then be scaled to.</p>
+
+<h2>Three ways to practise</h2>
+
+<ul>
+  <li><strong>Note by note</strong> — hear a note, hold it until it is right</li>
+  <li><strong>Whole tune</strong> — hear the first note, then perform the rest yourself
+      while the app follows you</li>
+  <li><strong>Tune and rhythm</strong> — the same, with each note held about as long as
+      it is written</li>
+</ul>
+
+<h2>And one way to make it a game</h2>
+
+<p>Party mode puts several people on the same song, each on their own phone, taking turns
+while everyone watches the current player's pitch live on their own screen. Points for
+landing the note, then for accuracy, then for speed — in that order, deliberately, because
+a scoring rule that mostly rewarded reflexes would teach the wrong thing.</p>
+
+<p>It works over Wi-Fi, or Bluetooth when there is no network at all. No server, no
+accounts, nothing to set up.</p>
 
 <div class="panel short">
   <h3>Nothing is recorded</h3>
   <p>Your whistling is analysed on the device, moment by moment, and then it is gone.
   Nothing is saved and nothing is sent anywhere. There are no accounts, no analytics and
-  no adverts. In Party mode, where several people play together over Wi-Fi or Bluetooth,
-  only names and scores travel between phones — never audio.</p>
+  no adverts. Even in Party mode only names and scores travel between phones — never
+  audio.</p>
   <p><a href="privacy.html">Read the full privacy policy →</a></p>
 </div>
+
+<h2>What is included</h2>
+
+<p><em>Happy Birthday</em> and <em>Alle meine Entchen</em>, four difficulty levels, and an
+illustrated explanation inside the app of why whistling behaves the way it does —
+including why your range is the size it is, which turns out to be a consequence of physics
+rather than of talent.</p>
 
 <h2>Support</h2>
 

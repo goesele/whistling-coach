@@ -1,0 +1,45 @@
+/* Matches the app: same dark surface, same accent, same restraint. */
+:root {
+  --bg: #0b1220;
+  --panel: #101828;
+  --ink: #e9eef7;
+  --muted: #9aa7bd;
+  --dim: #6b7a94;
+  --accent: #60a5fa;
+  --green: #4ade80;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+.wrap { max-width: 44rem; margin: 0 auto; padding: 3rem 1.25rem 5rem; }
+header { margin-bottom: 2.5rem; }
+h1 { font-size: 2.4rem; margin: 0 0 .4rem; letter-spacing: -.02em; }
+h2 { font-size: 1.3rem; margin: 2.4rem 0 .6rem; }
+h3 { font-size: 1.05rem; margin: 1.6rem 0 .4rem; }
+.tag { color: var(--muted); font-size: 1.05rem; margin: 0; }
+p, li { color: var(--muted); }
+strong { color: var(--ink); }
+a { color: var(--accent); }
+a:hover { color: #93c5fd; }
+.panel {
+  background: var(--panel);
+  border: 1px solid rgba(255,255,255,.06);
+  border-radius: 12px;
+  padding: 1.1rem 1.25rem;
+  margin: 1.2rem 0;
+}
+.lede { color: var(--ink); font-size: 1.1rem; }
+.short { border-left: 3px solid var(--green); }
+nav { margin-top: 2rem; display: flex; gap: 1.25rem; flex-wrap: wrap; }
+footer {
+  margin-top: 4rem; padding-top: 1.5rem;
+  border-top: 1px solid rgba(255,255,255,.08);
+  color: var(--dim); font-size: .9rem;
+}
+code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .92em; }
+ul { padding-left: 1.2rem; }
